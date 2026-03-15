@@ -2,6 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://okm-kazakhstan.kz"),
+
   title: "OKM Kazakhstan — официальный дистрибьютор OKM в Казахстане",
 
   description:
@@ -19,14 +21,30 @@ export const metadata: Metadata = {
 
   authors: [{ name: "OKM Kazakhstan" }],
 
+  alternates: {
+    canonical: "https://okm-kazakhstan.kz",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
   openGraph: {
-    title: "OKM Kazakhstan",
+    title: "OKM Kazakhstan — официальный дистрибьютор OKM",
     description:
-      "Официальный дистрибьютор OKM в Казахстане. Глубинные детекторы до 25 метров.",
-    url: "https://okmkazakhstan.kz",
+      "Продажа немецких глубинных детекторов OKM в Казахстане. Модели eXp 7000, Rover C4, Gepard GPR 3D.",
+    url: "https://okm-kazakhstan.kz",
     siteName: "OKM Kazakhstan",
     locale: "ru_RU",
     type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "OKM Kazakhstan — официальный дистрибьютор OKM",
+    description:
+      "Продажа немецких глубинных детекторов OKM в Казахстане.",
   },
 
   icons: {
