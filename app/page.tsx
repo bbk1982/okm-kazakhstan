@@ -362,14 +362,18 @@ className="w-full rounded shadow-lg object-contain"
 <p className="font-semibold">Email</p>
 <p className="mb-4">bbk1982@gmail.com</p>
 
-<p className="font-semibold">Телефон</p>
+<p className="font-semibold">Контакты</p>
 
 <a href="tel:+77772321214" className="block mb-2 hover:underline">
-+7 777 232 12 14
++7 777 232 12 14 — Бахытжан
 </a>
 
-<a href="tel:+77029648833" className="block mb-4 hover:underline">
-+7 702 964 88 33
+<a href="tel:+77029648833" className="block mb-2 hover:underline">
++7 702 964 88 33 — Алина
+</a>
+
+<a href="tel:+77754088443" className="block mb-4 hover:underline">
++7 775 408 84 43 — Калмурат
 </a>
 
 <p className="font-semibold">Адрес</p>
